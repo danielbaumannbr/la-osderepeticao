@@ -2,11 +2,13 @@
 programa {
   inclua biblioteca Util-->u
   funcao inicio() {
-    inteiro palpite
+    inteiro palpite,tentativas=1
     logico ganhou=falso
     faca{
-    escreva("\nEscreva seu palpite? ")
+    escreva("\nEscreva seu ",tentativas,"º palpite? ")
     leia(palpite)
+    //Para contar, use ++ após o nome da variável
+    tentativas++
     se(palpite==u.sorteia(1,10)){
       escreva("Parabéns você acertou!🏆")
       ganhou=verdadeiro

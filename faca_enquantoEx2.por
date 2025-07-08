@@ -13,7 +13,7 @@ programa {
       escreva("Parabéns você acertou!🏆")
       ganhou=verdadeiro
     }senao{
-      escreva("Errou!🍍")
+      escreva("Errou!🙁")
       ganhou=falso
     }//Fim senao
   }enquanto(ganhou!=verdadeiro)

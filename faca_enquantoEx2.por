@@ -4,7 +4,7 @@ programa {
     inteiro palpite
     logico ganhou=falso
     faca{
-    escreva("\nQual seu palpite? ")
+    escreva("\nEscreva seu palpite? ")
     leia(palpite)
     se(palpite==7){
       escreva("Parabéns você acertou!🏆")
